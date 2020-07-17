@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-import amazon_scraper
+import final_amazon_scraper
 import settings
 import time
 import random
@@ -27,7 +27,7 @@ if __name__ == "__main__":
     logging.info(f"Starting scheduler")
 
     while True:
-        amazon_scraper.main()
+        final_amazon_scraper.main()
         sleep_time_seconds = random.randrange(min_update_interval, max_update_interval) * 60
         logging.info(f"Completed update, next update in {sleep_time_seconds / 60} minutes")
         time.sleep(sleep_time_seconds)
