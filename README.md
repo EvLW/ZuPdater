@@ -1,6 +1,6 @@
 # Amazon Scraper
 
-A script to scrape Amazon listings and update information in Zen Arbitrage.
+A script to update listings in ZA.
 
 ## Installing Dependencies Locally
 
